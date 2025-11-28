@@ -2,11 +2,10 @@
 spring:
   application:
     name: DentalClinic
-
   datasource:
-    url: jdbc:postgresql://localhost:5432/DentalClinic
-    username: localUser
-    password: localPassword
+    url: ${POSTGRES_URI}
+    username: ${POSTGRES_USER}
+    password: ${POSTGRES_PASSWORD}
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
