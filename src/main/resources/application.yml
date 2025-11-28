@@ -3,9 +3,9 @@ spring:
   application:
     name: DentalClinic
   datasource:
-    url: ${POSTGRES_URI}
-    username: ${POSTGRES_USER}
-    password: ${POSTGRES_PASSWORD}
+    url: jdbc:postgresql://switchback.proxy.rlwy.net:42702/railway
+    username: postgres
+    password: TyxOHsTbxiDnHLLLbrExOHdvHPoDimQI
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
